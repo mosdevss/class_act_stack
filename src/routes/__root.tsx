@@ -40,6 +40,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <body>
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
+        <Link to='/contact'>Contact</Link>
         {children}
 
         <Scripts />
