@@ -1,4 +1,4 @@
-import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
+import { HeadContent, Link, Scripts, createRootRoute } from '@tanstack/react-router'
 
 import '../styles/styles.scss'
 import NotFound from '../components/NotFound'
@@ -38,6 +38,8 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
+        <Link to='/'>Home</Link>
+        <Link to='/about'>About</Link>
         {children}
 
         <Scripts />
