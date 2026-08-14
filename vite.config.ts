@@ -30,10 +30,8 @@
 //
 // export default config
 
-// vite.config.ts
 import { defineConfig } from 'vite';
 import { tanstackStart } from '@tanstack/react-start/plugin/vite';
-import tsConfigPaths from 'vite-tsconfig-paths';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
@@ -42,25 +40,12 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: BASE,
-
     plugins: [
-      tsConfigPaths({
-        projects: ['./tsconfig.json'],
-      }),
-
       tanstackStart({
-        router: {
-          basepath: BASE,
-        },
-        client: {
-          base: BASE,
-        },
-        prerender: {
-          enabled: true,
-          crawlLinks: true,
-        },
+        router: { basepath: BASE },
+        client: { base: BASE },
+        prerender: { enabled: true, crawlLinks: true },
       }),
-
       react(),
     ],
   };
