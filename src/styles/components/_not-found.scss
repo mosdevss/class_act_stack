@@ -1,0 +1,31 @@
+// Default 404 page — styles the NotFound component.
+@use '../abstracts' as *;
+
+.not-found {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 60vh;
+  text-align: center;
+  padding: $spacing-2xl $spacing-md;
+
+  &__title {
+    font-size: $font-size-3xl;
+    margin-bottom: $spacing-md;
+  }
+
+  &__message {
+    color: $color-neutral-500;
+    margin-bottom: $spacing-lg;
+  }
+
+  &__link {
+    @extend %button-base;
+    background-color: $color-primary-500;
+    color: $color-white;
+    padding: $spacing-sm $spacing-lg;
+
+    &:hover {
+      background-color: $color-primary-600;
+    }
+  }
+}

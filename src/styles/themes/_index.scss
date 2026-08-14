@@ -1,0 +1,4 @@
+// Do NOT forward `dark` — enabling it requires swapping configs to avoid the
+// "module already loaded" error. See AGENTS.md for the swap method.
+@forward 'default';
+@forward 'light';

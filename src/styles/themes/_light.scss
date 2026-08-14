@@ -1,0 +1,8 @@
+// Light theme — same as default; kept as an explicit override point.
+@use '../abstracts' as *;
+
+[data-theme='light'] {
+  --color-primary: #{$color-primary-500};
+  --color-background: #{$color-white};
+  --color-text: #{$color-neutral-900};
+}

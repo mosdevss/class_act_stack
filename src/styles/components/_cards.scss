@@ -1,0 +1,15 @@
+// BEM cards — matches Figma Card/Feature.
+@use '../abstracts' as *;
+
+.card {
+  @extend %card;
+
+  &__title {
+    font-size: $font-size-xl;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__body {
+    color: $color-neutral-500;
+  }
+}

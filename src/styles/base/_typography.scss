@@ -1,0 +1,21 @@
+// Base typography — wired to the $font-primary token from _variables.scss.
+@use '../abstracts' as *;
+
+body {
+  font-family: $font-primary;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  color: $color-neutral-900;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  line-height: $line-height-heading;
+  font-weight: 700;
+}

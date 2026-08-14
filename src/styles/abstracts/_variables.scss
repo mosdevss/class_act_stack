@@ -1,0 +1,43 @@
+// Design tokens — mirror Figma Local Variables (slash naming) exactly.
+
+// Colors
+$color-primary-500: #6366f1;
+$color-primary-600: #4f46e5;
+$color-primary-700: #4338ca;
+$color-neutral-100: #f4f4f5;
+$color-neutral-500: #71717a;
+$color-neutral-900: #18181b;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-danger-500: #ef4444;
+$color-success-500: #22c55e;
+
+// Spacing
+$spacing-xs: 0.5rem;
+$spacing-sm: 0.75rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+
+// Radius
+$radius-sm: 0.25rem;
+$radius-md: 0.5rem;
+$radius-lg: 1rem;
+$radius-full: 9999px;
+
+// Breakpoints
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-wide: 1440px;
+
+// Fonts
+$font-primary: 'Inter', sans-serif;
+$font-size-body: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.5rem;
+$font-size-2xl: 2rem;
+$font-size-3xl: 3rem;
+$line-height-body: 1.6;
+$line-height-heading: 1.2;

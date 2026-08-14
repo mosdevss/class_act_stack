@@ -1,0 +1,10 @@
+// Dark theme — NOT forwarded from _index.scss by default.
+// Enabling it requires swapping the config (see AGENTS.md) to avoid the
+// "module already loaded" Sass error.
+@use '../abstracts' as *;
+
+[data-theme='dark'] {
+  --color-primary: #{$color-primary-500};
+  --color-background: #{$color-neutral-900};
+  --color-text: #{$color-white};
+}

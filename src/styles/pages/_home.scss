@@ -1,0 +1,8 @@
+// Home page — placeholder, build out in Phase 2 to match Figma `index` frame.
+@use '../abstracts' as *;
+
+.home {
+  padding: $spacing-3xl $spacing-md;
+  max-width: 42rem;
+  margin: 0 auto;
+}

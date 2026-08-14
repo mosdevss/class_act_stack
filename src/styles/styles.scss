@@ -1,0 +1,7 @@
+// 7-1 entry point — order matters: vendors, base, layout, components, pages, themes.
+@use 'vendors' as *;
+@use 'base' as *;
+@use 'layout' as *;
+@use 'components' as *;
+@use 'pages' as *;
+@use 'themes' as *;
