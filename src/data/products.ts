@@ -29,7 +29,7 @@ export const products: Product[] = [
 export async function fetchProductBySlug(slug: string): Promise<Product> {
   // stand-in for a real fetch() to an external API — swap the body
   // for `await fetch(...).then(r => r.json())` when you have a real endpoint
-  await new Promise((r) => setTimeout(r, 200))
+  // await new Promise((r) => setTimeout(r, 200))
 
   const product = products.find((p) => p.slug === slug)
   if (!product) {
