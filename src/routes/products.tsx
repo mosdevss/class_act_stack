@@ -36,7 +36,7 @@ function ProductsPage() {
           <button
             key={p.slug}
             onClick={() => setActiveSlug(p.slug)}
-            className={activeSlug === p.slug ? 'active' : ''}
+            className={`button ${activeSlug === p.slug ? 'active' : ''}`}
           >
             {p.name}
           </button>

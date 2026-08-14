@@ -4,7 +4,7 @@
 .button {
   @extend %button-base;
   padding: $spacing-sm $spacing-lg;
-  background-color: $color-primary-500;
+  background-color: $color-success-500;
   color: $color-white;
 
   &:hover {
@@ -26,3 +26,7 @@
     }
   }
 }
+
+// .tabs {
+//   background-color: green;
+// }
